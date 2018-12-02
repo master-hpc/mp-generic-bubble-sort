@@ -1,5 +1,5 @@
 # "Generic Bubble Sort"
-A single block generic parallel bubble sort implemented in CUDA
+A single block generic parallel bubble sort implementation (CUDA)
 ## TODOs
 - push the integer version
 - write the generic version
