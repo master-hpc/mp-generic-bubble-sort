@@ -27,7 +27,7 @@ int main(int argc, char** argv)
 	cudaFree(d_v);
 
 	for (int i = 0; i < size; i++) {
-		std::cout << (i == 0 ? "{ " : "") <<  h_v[i] << (i < size -1 ? " ," : "}");
+		std::cout << (i == 0 ? "{" : "") <<  h_v[i] << (i < size -1 ? " ," : "}");
 	}
 	std::cout << std::endl;
 	return 0;
