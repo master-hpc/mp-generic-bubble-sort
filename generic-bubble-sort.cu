@@ -40,7 +40,7 @@ __global__ void bubbleSort(int *v, const int n)
         for (int i = 0; i < n; i++) {
 
 		int offset = i % 2;
-                int indiceGauche = 2 * tIdx + offset;
+		int indiceGauche = 2 * tIdx + offset;
 		int indiceDroite = indiceGauche + 1;
 
                 if (indiceDroite < n) {
