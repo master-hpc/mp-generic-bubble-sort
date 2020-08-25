@@ -1,10 +1,14 @@
 # "Generic Bubble Sort"
 > A single block generic parallel bubble sort implementation (CUDA)
 
-## Compilation
+## Compile
 
     # run from repo dir
     nvcc -o out/generic-bubble-sort generic-bubble-sort.cu
+    
+## Approach
+
+To know how this implementation works, check [this answer](https://stackoverflow.com/a/63567939/3503855) posted on stackoverflow.
 
 ## TODOs
 
